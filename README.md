@@ -2,6 +2,8 @@
 
 SoleMate is a full-stack e-commerce web application built with Node.js, Express, and MongoDB. It provides a seamless shopping experience for users looking to buy shoes, along with a dedicated dashboard for administrators to manage inventory.
 <img width="1909" height="914" alt="image" src="https://github.com/user-attachments/assets/914aa38d-648e-460a-b6b1-a43dbeb3b448" />
+<img width="1881" height="917" alt="image" src="https://github.com/user-attachments/assets/54bed217-4d67-44a1-b990-3755ee977e21" />
+<img width="1889" height="914" alt="image" src="https://github.com/user-attachments/assets/44b222b8-c125-4a3b-a6ee-d92895583e52" />
 
 ---
 

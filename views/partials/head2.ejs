@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scatch</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-['Helvetica_Now_Display'] bg-white text-gray-800">
+
+  <!-- Header/Navbar -->
+  <nav class="w-full fixed top-0 left-0 z-50 bg-white shadow-sm border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        
+        <!-- Logo -->
+        <div class="flex-shrink-0">
+          <h1 class="text-2xl font-bold tracking-tight text-gray-900"> SoleMate</h1>
+        </div>
+
+        <!-- Navigation Links (Add as needed) -->
+        <div class="hidden md:flex space-x-6 text-sm font-medium">
+          <a href="/" class="hover:text-blue-600 transition">Home</a>
+          <a href="/shop" class="hover:text-blue-600 transition">Shop</a>
+          <a href="/about" class="hover:text-blue-600 transition">About</a>
+          <a href="/users/logout" class="hover:text-red-500 transition">logout</a>
+        </div>
+
+        <!-- Right Section (Cart, Login, etc.) -->
+        <div class="flex items-center space-x-4">
+          <a href="/cart" class="text-xl hover:text-blue-600 ">
+            <i class="ri-shopping-cart-line"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Add margin top so content doesn't hide behind fixed navbar -->
+  <div class="h-16"></div>
+
+</body>
+</html>
